@@ -1,0 +1,43 @@
+body {
+    background-image: url('Images/newzealand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+form {
+    margin: 200px 350px;
+    background-color:rgba(248, 245, 139, 75%);
+    width: 60%;
+    height: 90%;
+    padding-bottom: 70px;
+    padding-right: -40px;
+}
+
+.user,.pw {
+    height: 30px;
+    width: 300px;
+    margin: 10px 20px;
+}
+
+.username ,.password{
+    font-family: cursive;
+    font-size: 20px;
+    padding: 120px;
+    font-weight: bolder;
+    color: #A96B29;
+}
+
+img {
+    width: auto;
+    height: auto;
+    margin: -160px 0px 0px 15px;
+    position: absolute;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline overline;
+}
