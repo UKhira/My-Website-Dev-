@@ -3,6 +3,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
+    max-inline-size: 88em;
+    padding: var(--metric-box-spacing);
+    margin: auto;
 }
 
 form {
@@ -10,7 +13,7 @@ form {
     background-color:rgba(248, 245, 139, 75%);
     width: 60%;
     height: 90%;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     padding-right: -40px;
 }
 
@@ -40,4 +43,16 @@ h2 {
     text-align: center;
     padding-top: 20px;
     text-decoration: underline overline;
+}
+
+button{
+   margin-left: 80px;
+   background-color: #A082D8;
+   text-decoration: none;
+   padding: 10px 60px;
+   font-family:'Righteous', cursive;;
+   font-weight: 800;
+   font-size: 20px;
+   border: 2px solid black;
+   border-radius: 25px;
 }
