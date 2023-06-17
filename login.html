@@ -12,20 +12,22 @@
     <div>
         <form>
             <h2>User Login</h2>
-            <label for="name" class="username1" id="username">Username</label> 
+            <label for="name" class="username">Username</label> 
             <br>
-            <input type="text" class="username">
+            <input type="text" class="user" id="username">
             <br><br>
             <label for= "password" class="password">Password</label>
             <br>
-            <input type="password" class="pw">
+            <input type="password" class="pw" id="password">
 
-            <img src="Images/login-icon.png" alt="">
+            <img src="Images/login-icon.png" >
             <br><br>
-            <button>
-                <a href="home.html">Login</a>
+            <button onclick="loginClick()" class = "login">Login
+                <!-- <a class="login">Login</a> -->
             </button>
+            <button class="clear" id="clear" onclick="clearClick()">Clear</button>
         </form>
     </div>
+    <script src="loginScript.js"></script>
 </body>
 </html>

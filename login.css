@@ -17,13 +17,13 @@ form {
     padding-right: -40px;
 }
 
-.username,.pw {
+.user,.pw {
     height: 30px;
     width: 300px;
     margin: 10px 20px;
 }
 
-#username ,.password{
+.username ,.password{
     font-family: cursive;
     font-size: 20px;
     margin-left: 120px;
@@ -43,10 +43,12 @@ h2 {
     text-align: center;
     padding-top: 20px;
     text-decoration: underline overline;
+    margin-left: -70px;
 }
 
 button{
    margin-left: 80px;
+   margin-top: 30px;
    background-color: #A082D8;
    text-decoration: none;
    padding: 10px 60px;
@@ -56,3 +58,8 @@ button{
    border: 2px solid black;
    border-radius: 25px;
 }
+
+.login, .login :visited {
+    text-decoration: none;
+}
+
