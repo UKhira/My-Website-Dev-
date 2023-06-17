@@ -17,16 +17,16 @@ form {
     padding-right: -40px;
 }
 
-.user,.pw {
+.username,.pw {
     height: 30px;
     width: 300px;
     margin: 10px 20px;
 }
 
-.username ,.password{
+#username ,.password{
     font-family: cursive;
     font-size: 20px;
-    padding: 120px;
+    margin-left: 120px;
     font-weight: bolder;
     color: #A96B29;
 }
